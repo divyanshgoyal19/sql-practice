@@ -1,14 +1,23 @@
 # sql-practice
 
 SQL practice as I work toward data analyst roles.
-Solutions from HackerRank, with notes on the concept behind each query.
+Solutions from HackerRank and LeetCode, plus assignment work,
+with notes on the concept behind each query.
 
 ## Structure
 - `basic-select/` — filtering, sorting, string functions
 - `aggregation/` — COUNT, SUM, AVG, GROUP BY
 - `advanced-select/` — CASE WHEN, subqueries
+- `hackerrank/` — HackerRank SQL track solutions
+- `leetcode/` — LeetCode SQL 50 solutions
+- `joins/` — inner, left, right, cross and self joins across five
+  related tables; anti-joins, aggregation over joins, and NULL
+  comparison behaviour
 
 ## Concepts covered
 - Sorting by expressions, tie-breaking with a second key
 - Aggregates vs row-level queries
 - Correlated subqueries
+- Join types and how each handles duplicates and NULLs
+- Anti-joins: LEFT JOIN + IS NULL vs NOT EXISTS vs NOT IN
+- Why NULL = NULL is UNKNOWN, and what breaks because of it
