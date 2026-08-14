@@ -21,3 +21,6 @@ with notes on the concept behind each query.
 - Join types and how each handles duplicates and NULLs
 - Anti-joins: LEFT JOIN + IS NULL vs NOT EXISTS vs NOT IN
 - Why NULL = NULL is UNKNOWN, and what breaks because of it
+- subqueries/ — IN, scalar and derived-table subqueries; anti-joins; NULL traps with NOT IN
+- window-functions/ — OVER/PARTITION BY, running totals, ROW_NUMBER/RANK/DENSE_RANK, LEAD/LAG, top-N-per-group
+- mistakes.md — running log of errors made and what caused them
